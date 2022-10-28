@@ -1,0 +1,52 @@
+
+{
+    box-sizing: border-box;
+}
+
+.form{
+width: 30%;
+padding: 20px;
+}
+
+input,select{
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 60px;
+}
+
+input:focus{
+    background-color: #ddd;
+    border: none;
+}
+
+.submit{
+    background-color: antiquewhite;
+
+}
+a{
+    color: purple;
+}
+.submit:hover{
+    opacity: 0.9;
+}
+html, body{    
+    margin-left: 20%;
+}
+
+h1, h2, p, label{
+    color: coral;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.h1{
+    margin-left: 17%;
+}
+#h2, #h3{
+    margin-left: 10%;
+}

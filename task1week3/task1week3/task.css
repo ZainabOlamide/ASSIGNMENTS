@@ -1,0 +1,72 @@
+
+body{
+    height: 100%;
+    width: 100%;
+}
+ul > li{
+    list-style: none;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    border: 2px solid rosybrown;
+    color: brown;
+    padding: 5px;
+    background-color: grey;
+    opacity: 0.6;
+}
+.nav-link{
+    text-decoration: none;
+    color: brown;
+}
+img{
+    height: auto;
+    width: auto;
+    mix-blend-mode: 
+    
+}
+#about, #service{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    background-color: brown;
+    opacity: 0.8;
+
+    color: pink;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: grey;
+    color: brown;
+}
+
+#project{
+    font-size: larger;
+    background-color: gray ;
+    color: maroon;
+    opacity: 0.8;
+}
+form{
+    width: 70%;
+    margin-left: 40%;
+}
+
+input, textarea,button{
+    width: 30%;
+    align-self: center;
+}
+button{
+    background-color: grey;
+    border-radius: 5%;
+}
+.contact{
+    background-color: maroon;
+}
